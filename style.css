@@ -47,9 +47,10 @@ h1,
   font-size: 36px;
   color: #1f2937;
 }
-/* Header */
 
-/* Navbar Section */
+/* 1. Header Section*/
+
+/* Navbar */
 
 .navbar a:hover {
   color: #5d6d7e;
@@ -80,7 +81,7 @@ ul > li {
   margin-left: 20px;
 }
 
-/* Hero Section */
+/* Hero */
 
 .hero {
   display: flex;
@@ -119,7 +120,7 @@ h1 {
   line-height: 1;
 }
 
-/* Main */
+/* 2. Main Section*/
 
 .main-title {
   text-align: center;
@@ -149,7 +150,7 @@ h1 {
   flex: 1;
 }
 
-/* Quote */
+/* 3. Quote Section */
 
 .quote {
   background-color: #e5e7eb;
@@ -173,7 +174,7 @@ h1 {
   font-size: 25px;
 }
 
-/* Call to Action */
+/* 4. Call to Action Section*/
 
 .call > .container {
   padding: 100px;
@@ -196,7 +197,7 @@ h1 {
   color: #fff;
 }
 
-/* Footer */
+/* 5. Footer Section */
 
 .footer {
   color: #fff;
