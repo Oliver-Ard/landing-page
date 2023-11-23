@@ -8,16 +8,18 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
 }
 
 /* Common rulesets*/
 
 .container {
   margin: 0 auto;
-  max-width: 1800px;
+  max-width: 1100px;
   padding: 0 30px;
-
-  border: 2px solid red;
 }
 
 .header,
@@ -49,6 +51,17 @@ h1,
 
 /* Navbar Section */
 
+.navbar a:hover {
+  color: #5d6d7e;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   font-size: 24px;
 }
@@ -60,9 +73,29 @@ a {
 ul {
   list-style: none;
   margin: 0;
+  display: flex;
+}
+
+ul > li {
+  margin-left: 20px;
 }
 
 /* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.hero-container {
+  max-width: 450px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 10px;
+}
 
 button {
   cursor: pointer;
@@ -76,25 +109,60 @@ button {
 }
 
 .hero > img {
-  width: 500px;
-  height: auto;
+  max-width: 400px;
+  border-radius: 20px;
+  border: 2px solid white;
 }
 
 h1 {
   font-size: 48px;
+  line-height: 1;
 }
 
 /* Main */
 
-.boxes > img {
-  width: 200px;
+.main-title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-description {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 40px;
+  margin: 0 50px 100px;
+}
+
+.box > img {
+  max-width: 200px;
   height: auto;
+}
+
+.main-description > .box > p {
+  margin-top: 10px;
+}
+
+.main-description > .box {
+  color: #1f2937;
+  text-align: center;
+  flex: 1;
 }
 
 /* Quote */
 
 .quote {
   background-color: #e5e7eb;
+}
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 120px 50px;
+  gap: 10px;
 }
 
 #quote {
@@ -108,12 +176,20 @@ h1 {
 /* Call to Action */
 
 .call > .container {
-  background-color: #3882f6;
+  padding: 100px;
 }
 
-.container > button {
+.call-box {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 35px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-box > button {
   border: 2px solid white;
-  padding: 5px 20px;
+  padding: 2px 30px;
 }
 
 .box {
@@ -124,4 +200,13 @@ h1 {
 
 .footer {
   color: #fff;
+  height: 80px;
+  margin-top: auto;
+}
+
+.footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
