@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Common rulesets*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1800px;
+  padding: 0 30px;
+
+  border: 2px solid red;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+a,
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo,
+h1,
+.main-title,
+.signature {
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.main-title,
+#quote,
+.signature {
+  font-size: 36px;
+  color: #1f2937;
+}
+/* Header */
+
+/* Navbar Section */
+
+.logo {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* Hero Section */
+
+button {
+  cursor: pointer;
+  padding: 7px 25px;
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.hero > img {
+  width: 500px;
+  height: auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* Main */
+
+.boxes > img {
+  width: 200px;
+  height: auto;
+}
+
+/* Quote */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+#quote {
+  font-weight: 100;
+}
+
+.signature {
+  font-size: 25px;
+}
+
+/* Call to Action */
+
+.call > .container {
+  background-color: #3882f6;
+}
+
+.container > button {
+  border: 2px solid white;
+  padding: 5px 20px;
+}
+
+.box {
+  color: #fff;
+}
+
+/* Footer */
+
+.footer {
+  color: #fff;
+}
