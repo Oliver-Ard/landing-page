@@ -1,10 +1,19 @@
-# Landing-Page
+# Landing Page
 
-For this project, I created a website where I practiced basic CSS properties, but the main focus was on how to use the proper Flexbox properties to layout a page.
+For this project, I created a landing page where I practiced basic CSS properties, like:
 
-This project is from <strong><a href="https://www.theodinproject.com/lessons/foundations-landing-page" target="_blank" rel="noopener noreferrer">The Odin Project</a></strong>, Foundation Course, Flexbox section.
-<br>
-<br>
+- CSS selectors
+- the box model
+- color & text styling
+- Flexbox
+- understanding of the cascade and the specificity
 
-<h2>Credits</h2>
-Photo by <em><a href="https://pixabay.com/users/nicobecker59-19845444/" target="_blank" rel="noopener noreferrer">NicoBecker59</a></em>, vectors by <em><a href="https://pixabay.com/users/clker-free-vector-images-3736/" target="_blank" rel="noopener noreferrer">Clker-Free-Vector-Images</a></em> and <em><a href="https://pixabay.com/users/mickeylit-611797/" target="_blank" rel="noopener noreferrer">MickeyLIT</a></em> on <strong><a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a></strong>.
+The main focus was on how to use the proper `Flexbox` properties to layout a page.
+
+**[This](https://www.theodinproject.com/lessons/foundations-landing-page)** project is from **[The Odin Project](https://www.theodinproject.com/)**, [Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations).
+
+---
+
+### Credits
+
+Photo by [NicoBecker59](https://pixabay.com/users/nicobecker59-19845444/), vectors by [Clker-Free-Vector-Images](https://pixabay.com/users/clker-free-vector-images-3736/) and [MickeyLIT](https://pixabay.com/users/mickeylit-611797/) on **[Pixabay](https://pixabay.com/)**.
